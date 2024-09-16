@@ -49,6 +49,10 @@ function initAns() {
   return answer;
 }
 
+/**
+ * get all input
+ * @returns {Set<any>} a set contains all input tag
+ */
 function getInputNameSet() {
   let inputs = document.getElementsByTagName("input");
 
@@ -59,6 +63,9 @@ function getInputNameSet() {
   return inputNameSet;
 }
 
+/**
+ * check quiz
+ */
 function checkQuiz() {
   let inputNameSet = getInputNameSet();
 
